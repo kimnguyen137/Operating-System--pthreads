@@ -29,15 +29,14 @@ Your program should consist of
 Your program will terminate when all cars have gone through the tunnel.
 
 ### OUTPUT
-Your program should start by echoing the first here lines
-of input as in:
+Your program should start by echoing the first here lines of input as in:
+```
 Maximum number of cars in the tunnel: 2
 Maximum number of northbound cars: 1
 Maximum number of southbound cars: 1
-It should print one line of output each time a car (a)
-arrives at the tunnel, (b) enters the tunnel and (c) leaves
-the tunnel. This line of output should identify each car
-by its northbound or southbound sequence number as in
+```
+It should print one line of output each time a car (a) arrives at the tunnel, (b) enters the tunnel and (c) leaves the tunnel. This line of output should identify each car by its northbound or southbound sequence number as in
+```
 Southbound car # 1 arrives at the tunnel.
 Southbound car # 1 enters the tunnel.
 Northbound car # 1 arrives at the tunnel.
@@ -46,13 +45,12 @@ Southbound car # 2 arrives at the tunnel.
 Northbound car # 2 arrives at the tunnel.
 Southbound car # 1 exits the tunnel.
 Southbound car # 2 enters the tunnel.
-At the end of the simulation, your program should also
-print a summary with the total number of northbound
-and southbound cars that went through the tunnel as well
-as the total number of cars that had to wait because of
-the restrictions.
+```
+At the end of the simulation, your program should also print a summary with the total number of northbound and southbound cars that went through the tunnel as well as the total number of cars that had to wait because of the restrictions.   
 This summary could look like:
+```
 2 northbound car(s) crossed the tunnel.
 2 southbound car(s) crossed the tunnel.
 2 car(s) had to wait.
+```
 
