@@ -8,9 +8,9 @@ This project will familiarize you with the use of pthreads, pthread mutexes and 
 A car tunnel is so poorly ventilated that it has become necessary to restrict:
 1. The number of northbound cars in the tunnel,
 2. The number of southbound cars in the tunnel,
-3. The total number of cars in the tunnel.
-Your assignment is to write a C/C++ simulating the enforcement of these restrictions using Pthread mutexes and condition variables. 
-Your program should consist of
+3. The total number of cars in the tunnel.  
+Your assignment is to write a C/C++ simulating the enforcement of these restrictions using Pthread mutexes and condition variables.   
+Your program should consist of  
 1. A main thread that will fork a tunnel process and the car processes according to the input specifications.
 2. One car thread per car wanting to cross the tunnel. The input to your program consists of the maximum number of northbound cars in the tunnel, the maximum number of southbound cars , and the maximum total number of cars in the tunnel followed by an ordered list of arriving cars as in:
 ```
