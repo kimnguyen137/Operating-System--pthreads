@@ -19,12 +19,9 @@ Your program should consist of
 3 // up to three cars at a time
 2 //up to two NB cars at a time
 2 //up to two SB cars at a time
-1 S 3 // SB car arrives at t = 1s
-// will take 3s to go through the tunnel
-2 N 4 // northbound car arrives 2s after
-// will take 4s to go through the tunnel
-1 S 4 // southbound car arrives 1s after
-// will take 4s to go through the tunnel
+1 S 3 // SB car arrives at t = 1s, will take 3s to go through the tunnel
+2 N 4 // northbound car arrives 2s after, will take 4s to go through the tunnel
+1 S 4 // southbound car arrives 1s after, will take 4s to go through the tunnel
 ```
 Your program will terminate when all cars have gone through the tunnel.
 
